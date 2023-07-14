@@ -119,17 +119,17 @@ special = true
 
 [[params.cta.link]]
 href = "#"
-text = "Learn More"
+text = "Más"
 special = false
 
 [params.contact]
 enable = true
-title = "Contact"
-body = "Leave us a message."
+title = "Contacto"
+body = "Déjanos un mensaje."
 phone = "+49 (0) 030 000 000"
 address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
-email = "nospam@example.com"
-subject = "New Submission!"
+email = "hola@fectp.org"
+subject = "Nuevo envío!"
 formspree_form_id = "example_invalid"
 
 [params.social]
