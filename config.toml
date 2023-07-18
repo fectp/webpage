@@ -20,8 +20,26 @@ url = '/'
 title = "Inicio"
 
 [[params.menu.main]]
+url = '/about'
+title = "Acerca de"
+
+[[params.menu.main]]
+url = '/join'
+title = "Cómo participar"
+
+[[params.menu.main]]
+url = '/donations'
+title = "Donaciones"
+
+[[params.menu.main]]
 url = '/posts/'
 title = "Artículos"
+
+
+[[params.menu.main]]
+url = '/legal/'
+title = "Legal"
+
 
 [taxonomies]
     tag = "tags"
