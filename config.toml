@@ -1,4 +1,4 @@
-baseURL = "https://www.fectp.org/"
+baseURL = "https://fectp.org/"
 title = "FECTP"
 languageCode = "es-co"
 defaultContentLanguage = "es"
