@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://fectp.github.io/webpage/"
 title = "FECTP"
 languageCode = "es-co"
 defaultContentLanguage = "es"
@@ -136,12 +136,12 @@ title = "El cambio es ahora"
 body = "El cambio es con todos y las mujeres son las principales artífices de la vida, es con inclusión que mejoramos la vida."
 
 [[params.cta.link]]
-href = "#"
+href = "/projects/women/"
 text = "Actívate"
 special = true
 
 [[params.cta.link]]
-href = "#"
+href = "/projects/women/"
 text = "Más"
 special = false
 
@@ -149,7 +149,7 @@ special = false
 enable = false
 title = "Contacto"
 body = "Déjanos un mensaje."
-phone = "+49 (0) 030 000 000"
+phone = ""
 address = "Cali<br />Valle del Cauca<br />Colombia"
 email = "hola@fectp.org"
 subject = "FECTP Contact"
