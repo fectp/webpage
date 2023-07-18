@@ -9,7 +9,7 @@ theme = "spectral"
 fancyTitle = "FECTP" # title for frontpage, may include image
 copyright = "FECTP"
 description = 'Fundación<br /> Educativa y Cultural<br />Támara Patiño'
-startbuttonText = "Activate"
+startbuttonText = "Contáctanos"
 startbuttonLink = "#"
 body_is_markdown = true
 #custom_css = "foo.css"
@@ -30,91 +30,93 @@ title = "Artículos"
 
 [params.one]
 enable = true
-title = 'Arcu aliquet vel lobortis ata nisl<br />eget augue amet aliquet nisl cep donec'
+title = 'Lo más importante<br />son las personas'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+Estamos llamados todos a hacer aquello que viene del corazón, 
+para lo cual se requiere conocerse a sí mismo y desde la 
+expresión artística proyectarlo.    
 '''
 
 [[params.one.icon]]
 icon = "fa-gem"
 style = "1"
-label = "Lorem"
+label = "Protección de la Vida"
 
 [[params.one.icon]]
 icon = "fa-heart"
 style = "2"
-label = "Ipsum"
+label = "Promoción Artística"
 
 [[params.one.icon]]
 icon = "solid fa-code"
 style = "3"
-label = "Dolor"
+label = "Empoderamiento"
 
 [params.two]
 enable = true
 
 [[params.two.section]]
-img = "img/pic01.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/img-thumbs/vida.jpg"
+title = 'Protección de la<br />vida digna'
+body = 'Todo lo que percibimos y entra a nuestro cuerpo incide en la calidad de vida: el aire, la comida, la información. Las formas como nos relacionamos, la calidad del aire, lo que ofrecemos y lo que recibimos.'
 
 [[params.two.section]]
-img = "img/pic02.jpg"
-title = 'Tortor dolore feugiat<br />elementum magna'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/img-thumbs/farol.jpg"
+title = 'Promoción<br />Artística y Cultural'
+body = 'El aquí y el ahora hace parte de la expresión que podemos ofrecer de la interpretación del mundo, la forma como reproducimos lo que captamos da cuenta de lo que sentimos y ofrecemos a los demás.'
 
 [[params.two.section]]
-img = "img/pic03.jpg"
-title = 'Magna primis lobortis<br />sed ullamcorper'
-body = 'Aliquam ut ex ut augue consectetur interdum. Donec hendrerit imperdiet. Mauris eleifend fringilla nullam aenean mi ligula.'
+img = "img/img-thumbs/canusa.jpg"
+title = 'Empoderamiento y<br />generación de valor'
+body = 'La paz es fundamental en la generación de valor. Esto permite enfocarnos en el autoconocimiento y a partir de este la ejecución de nuestro llamado, acción en la cual generamos el mayor valor.'
 
 [params.three]
 enable = true
-title = 'Accumsan mus tortor nunc aliquet'
+title = 'Nuestras acciones materializan las ideas'
 body = '''
-Aliquam ut ex ut augue consectetur interdum. Donec amet imperdiet eleifend  
-fringilla tincidunt. Nullam dui leo Aenean mi ligula, rhoncus ullamcorper.
+Es a través de la acción que logramos ofrecer a los demás lo que hay en nosotros, 
+por eso el pensar hace parte, el reflexionar filtra y el hacer es lo que genera más valor 
+para nosotros y los demás.
 '''
 
 [[params.three.feature]]
 icon = "fa-paper-plane"
-title = "Arcu accumsan"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Medición de Calidad del Aire"
+body = 'En Colombia somos los acompañantes de <a href="https://canair.io">canair.io</a>, iniciativa ciudadana para la medición de la calidad del aire.'
 
 [[params.three.feature]]
 icon = "solid fa-laptop"
-title = "Ac Augue Eget"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Computadores para florecer"
+body = "Una herramienta bien usada permite que el país se desarrolle, por cada persona que puede acceder a una herramienta en compañía de un colectivo multiplica la posibilidad de abrirse paso en la economía global."
 
 [[params.three.feature]]
 icon = "solid fa-code"
-title = "Foo bar"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "La salud y el arte"
+body = "La música y la expresión de las artes puede salvarnos la vida, puesto que puede cambiar en poco la percepción de lo que hay."
 
 [[params.three.feature]]
 icon = "solid fa-headphones-alt"
-title = "Baz kram"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Los artistas brillan"
+body = "Sin artistas no hay arte, el modelo de intermediación debe cambiar y para ello se requiere que los recursos sean dirigidos a los artistas más que a los intermediarios."
 
 [[params.three.feature]]
 icon = "fa-heart"
-title = "Some latin text"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Estación debida"
+body = "Llevemos conectividad a los lugares más alejados, así nos salvamos de quienes creen que el no verles les habilita cualquier acción."
 
 [[params.three.feature]]
 icon = "fa-flag"
-title = "Nothing important"
-body = "Augue consectetur sed interdum imperdiet et ipsum. Mauris lorem tincidunt nullam amet leo Aenean ligula consequat consequat."
+title = "Aquí y ahora"
+body = "Las mujeres en este momento son más que los hombres y a través de la ética del cuidado vamos a salvarnos unos a otros."
 
 [params.cta]
 enable = true
-title = "Arcue ut vel commodo"
-body = "Aliquam ut ex ut augue consectetur interdum endrerit imperdiet amet eleifend fringilla."
+title = "El cambio es ahora"
+body = "El cambio es con todos y las mujeres son las principales artífices de la vida, es con inclusión que mejoramos la vida."
 
 [[params.cta.link]]
 href = "#"
-text = "Activate"
+text = "Actívate"
 special = true
 
 [[params.cta.link]]
@@ -127,10 +129,11 @@ enable = true
 title = "Contacto"
 body = "Déjanos un mensaje."
 phone = "+49 (0) 030 000 000"
-address = "1234 Somewhere Road<br />Some Place, Some State 0000<br />Some Country"
+address = "Cali<br />Valle del Cauca<br />Colombia"
 email = "hola@fectp.org"
-subject = "Nuevo envío!"
-formspree_form_id = "example_invalid"
+subject = "FECTP Contact"
+formspree_form_id = ""
+web3forms_access_key = "0a65678d-6a58-4630-9904-93fda4a38837"
 
 [params.social]
 twitter = ""
