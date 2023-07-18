@@ -35,6 +35,9 @@ title = "Donaciones"
 url = '/posts/'
 title = "Artículos"
 
+[[params.menu.main]]
+url = '/faq/'
+title = "Respuestas"
 
 [[params.menu.main]]
 url = '/legal/'
@@ -143,7 +146,7 @@ text = "Más"
 special = false
 
 [params.contact]
-enable = true
+enable = false
 title = "Contacto"
 body = "Déjanos un mensaje."
 phone = "+49 (0) 030 000 000"
@@ -154,12 +157,12 @@ formspree_form_id = ""
 web3forms_access_key = "0a65678d-6a58-4630-9904-93fda4a38837"
 
 [params.social]
-twitter = ""
+twitter = "ikks"
 mastodon = ""
-github = ""
+github = "fectp"
 facebook = ""
 youtube = ""
-instagram = ""
+instagram = "tamara.igor"
 dribble = ""
 
 # language specific options

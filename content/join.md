@@ -1,7 +1,6 @@
 ---
 title: "Cómo participar"
 date: 2023-07-18T08:08:11-05:00
-draft: true
 ---
 
 # Modos de vinculación
