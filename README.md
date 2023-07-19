@@ -20,3 +20,15 @@ Para optimizar
 
   hugo serve
 
+## Prepublicación
+
+  rm -rf public/*
+  hugo
+
+En otra ventana ejecutar desde el directorio `public`
+
+  python3 -m http.server
+
+Y visitar con el navegador http://localhost:8000 o el puerto que haya sido asignado por el servidor web que ofrece Python.
+
+
