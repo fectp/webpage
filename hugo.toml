@@ -1,1 +1,180 @@
-theme = 'spectral'
+baseURL = "https://fectp.org/"
+title = "FECTP"
+languageCode = "es-co"
+defaultContentLanguage = "es"
+paginate = "7"
+theme = "spectral"
+
+[params]
+fancyTitle = "FECTP" # title for frontpage, may include image
+copyright = "FECTP"
+description = 'Fundación<br /> Educativa y Cultural<br />Támara Patiño'
+startbuttonText = "Contáctanos"
+startbuttonLink = "#"
+body_is_markdown = true
+#custom_css = "foo.css"
+#images = ["path_to_social_image_for_link_previews.jpg"]
+
+[[params.menu.main]]
+url = '/'
+title = "Inicio"
+
+[[params.menu.main]]
+url = '/about'
+title = "Acerca de"
+
+[[params.menu.main]]
+url = '/join'
+title = "Cómo participar"
+
+[[params.menu.main]]
+url = '/donations'
+title = "Donaciones"
+
+[[params.menu.main]]
+url = '/posts/'
+title = "Artículos"
+
+[[params.menu.main]]
+url = '/faq/'
+title = "Respuestas"
+
+[[params.menu.main]]
+url = '/legal/'
+title = "Legal"
+
+
+[taxonomies]
+    tag = "tags"
+    category = "categorías"
+    series = "series"
+
+[params.one]
+enable = true
+title = 'Lo más importante<br />son las personas'
+body = '''
+Estamos llamados todos a hacer aquello que viene del corazón, 
+para lo cual se requiere conocerse a sí mismo y desde la 
+expresión artística proyectarlo.    
+'''
+
+[[params.one.icon]]
+icon = "fa-gem"
+style = "1"
+label = "Protección de la Vida"
+
+[[params.one.icon]]
+icon = "fa-heart"
+style = "2"
+label = "Promoción Artística"
+
+[[params.one.icon]]
+icon = "solid fa-code"
+style = "3"
+label = "Empoderamiento"
+
+[params.two]
+enable = true
+
+[[params.two.section]]
+img = "img/img-thumbs/vida.jpg"
+title = 'Protección de la<br />vida digna'
+body = 'Todo lo que percibimos y entra a nuestro cuerpo incide en la calidad de vida: el aire, la comida, la información. Las formas como nos relacionamos, la calidad del aire, lo que ofrecemos y lo que recibimos.'
+
+[[params.two.section]]
+img = "img/img-thumbs/farol.jpg"
+title = 'Promoción<br />Artística y Cultural'
+body = 'El aquí y el ahora hace parte de la expresión que podemos ofrecer de la interpretación del mundo, la forma como reproducimos lo que captamos da cuenta de lo que sentimos y ofrecemos a los demás.'
+
+[[params.two.section]]
+img = "img/img-thumbs/canusa.jpg"
+title = 'Empoderamiento y<br />generación de valor'
+body = 'La paz es fundamental en la generación de valor. Esto permite enfocarnos en el autoconocimiento y a partir de este la ejecución de nuestro llamado, acción en la cual generamos el mayor valor.'
+
+[params.three]
+enable = true
+title = 'Nuestras acciones materializan las ideas'
+body = '''
+Es a través de la acción que logramos ofrecer a los demás lo que hay en nosotros, 
+por eso el pensar hace parte, el reflexionar filtra y el hacer es lo que genera más valor 
+para nosotros y los demás.
+'''
+
+[[params.three.feature]]
+icon = "fa-paper-plane"
+title = "Medición de Calidad del Aire"
+body = 'En Colombia somos los acompañantes de <a href="https://canair.io">canair.io</a>, iniciativa ciudadana para la medición de la calidad del aire.'
+
+[[params.three.feature]]
+icon = "solid fa-laptop"
+title = "Computadores para florecer"
+body = "Una herramienta bien usada permite que el país se desarrolle, por cada persona que puede acceder a una herramienta en compañía de un colectivo multiplica la posibilidad de abrirse paso en la economía global."
+
+[[params.three.feature]]
+icon = "solid fa-code"
+title = "La salud y el arte"
+body = "La música y la expresión de las artes puede salvarnos la vida, puesto que puede cambiar en poco la percepción de lo que hay."
+
+[[params.three.feature]]
+icon = "solid fa-headphones-alt"
+title = "Los artistas brillan"
+body = "Sin artistas no hay arte, el modelo de intermediación debe cambiar y para ello se requiere que los recursos sean dirigidos a los artistas más que a los intermediarios."
+
+[[params.three.feature]]
+icon = "fa-heart"
+title = "Estación debida"
+body = "Llevemos conectividad a los lugares más alejados, así nos salvamos de quienes creen que el no verles les habilita cualquier acción."
+
+[[params.three.feature]]
+icon = "fa-flag"
+title = "Aquí y ahora"
+body = "Las mujeres en este momento son más que los hombres y a través de la ética del cuidado vamos a salvarnos unos a otros."
+
+[params.cta]
+enable = true
+title = "El cambio es ahora"
+body = "El cambio es con todos y las mujeres son las principales artífices de la vida, es con inclusión que mejoramos la vida."
+
+[[params.cta.link]]
+href = "/projects/women/"
+text = "Actívate"
+special = true
+
+[[params.cta.link]]
+href = "/projects/women/"
+text = "Más"
+special = false
+
+[params.contact]
+enable = true
+title = "Contacto"
+body = "Déjanos un mensaje."
+phone = ""
+address = "Cali<br />Valle del Cauca<br />Colombia"
+email = "hola@fectp.org"
+subject = "FECTP Contact"
+formspree_form_id = ""
+web3forms_access_key = "0a65678d-6a58-4630-9904-93fda4a38837"
+
+[params.social]
+twitter = "ikks"
+mastodon = ""
+github = "fectp"
+facebook = ""
+youtube = ""
+instagram = "tamara.igor"
+dribble = ""
+
+# language specific options
+
+[languages.en]
+weight = 0
+languageName = "English"
+
+[languages.de]
+weight = 10
+languageName = "Deutsch"
+
+[languages.es]
+weight = 5
+languageName = "Español"
