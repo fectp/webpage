@@ -146,7 +146,7 @@ text = "Más"
 special = false
 
 [params.contact]
-enable = true
+enable = false
 title = "Contacto"
 body = "Déjanos un mensaje."
 phone = ""
