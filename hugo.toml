@@ -1,4 +1,4 @@
-baseURL = "https://fectp.gitlab.io/fectp-pages/"
+baseURL = "https://fectp.org/"
 title = "FECTP"
 languageCode = "es-co"
 defaultContentLanguage = "es"
